@@ -18,11 +18,8 @@ public class Admin extends Utente{
 	public ArrayList<Articolo> ricerca(String categoria, double prezzoMassimo, int quantitaMinima, boolean controllavisibilita, String nome) {
 // qusto è stato modificato............ HIROKI ha mod ficato.
 		// modificato da dennys
-<<<<<<< HEAD
 		// modificato da hiroki
-=======
 		//mod dennysssssss
->>>>>>> branch 'master' of https://github.com/squadrajavaintermedio/javashop.git
 		
 			ArrayList<Articolo> lista = this.dao.articoli(categoria);
 			ArrayList<Articolo> ris = new ArrayList<Articolo>();
