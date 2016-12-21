@@ -17,6 +17,7 @@ public class Admin extends Utente{
 	@Override //Categoria si intende il padre dell'articolo cercato
 	public ArrayList<Articolo> ricerca(String categoria, double prezzoMassimo, int quantitaMinima, boolean controllavisibilita, String nome) {
 // qusto è stato modificato............ HIROKI ha mod ficato.
+		// modificato da dennys
 		
 			ArrayList<Articolo> lista = this.dao.articoli(categoria);
 			ArrayList<Articolo> ris = new ArrayList<Articolo>();
