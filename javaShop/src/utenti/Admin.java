@@ -18,6 +18,7 @@ public class Admin extends Utente{
 	public ArrayList<Articolo> ricerca(String categoria, double prezzoMassimo, int quantitaMinima, boolean controllavisibilita, String nome) {
 // qusto è stato modificato............ HIROKI ha mod ficato.
 		// modificato da dennys
+		//mod dennysssssss
 		
 			ArrayList<Articolo> lista = this.dao.articoli(categoria);
 			ArrayList<Articolo> ris = new ArrayList<Articolo>();
