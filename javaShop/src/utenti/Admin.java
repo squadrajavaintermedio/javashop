@@ -1,5 +1,5 @@
 package utenti;
-
+//Commento di simone
 import java.util.ArrayList;
 import contenitori.Magazzino;
 import articoli.Articolo;
